@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
     for idx, coin in tqdm(enumerate(subreddit_json)):
         subreddit_name = subreddit_json[coin]
-        d = get_top_50_titles(subreddit_name, PEROID_TYPE)
+        d = get_top_25_titles(subreddit_name, PEROID_TYPE)
 
         with open(os.path.join(FOLDER_PATH, '{}.json'.format(coin)), 'w') as f:
             json.dump(d, f, indent=4)
