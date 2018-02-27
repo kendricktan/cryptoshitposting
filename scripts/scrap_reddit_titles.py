@@ -15,7 +15,7 @@ if not os.path.exists(SUBREDDIT_FOLDER):
     os.makedirs(SUBREDDIT_FOLDER)
 
 
-def get_top_50_titles(subreddit_name, peroid_type='all'):
+def get_top_25_titles(subreddit_name, peroid_type='all'):
     '''
     Gets the title (and upvotes) for the top 50 titles within a subreddit
     
@@ -42,14 +42,6 @@ def get_top_50_titles(subreddit_name, peroid_type='all'):
             return x + [{'title': y['data']['title'], 'ups': y['data']['ups']}]
 
         titles = reduce(f, r_json['data']['children'], titles)
-
-        # Get 2nd 25 in this section
-        # In the event that it fails, just return the top 25
-        after_key = r_json['data']['after']
-        r_json2 = requests.get(
-            URL + '&after={}'.format(after_key), headers=HEADERS).json()
-
-        titles = reduce(f, r_json2['data']['children'], titles)
 
         return titles
 
