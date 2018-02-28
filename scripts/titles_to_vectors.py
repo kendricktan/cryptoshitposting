@@ -7,7 +7,9 @@ import numpy as np
 
 from tqdm import tqdm
 from functools import reduce
+from yellowbrick.text import TSNEVisualizer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 
 import matplotlib.pyplot as plt
@@ -18,25 +20,55 @@ DATA_FOLDER = os.path.join(ROOT_FOLDER, 'data')
 SUBREDDIT_FOLDER = os.path.join(DATA_FOLDER, 'subreddits')
 
 
-def get_vectors_from_json(filename):
+def visualize_scatter(data_2d, label_ids, id_to_label_dict, figsize=(20, 20)):
+    plt.figure(figsize=figsize)
+    plt.grid()
+
+    nb_classes = len(np.unique(label_ids))
+
+    for label_id in np.unique(label_ids):
+        plt.scatter(data_2d[np.where(label_ids == label_id), 0],
+                    data_2d[np.where(label_ids == label_id), 1],
+                    marker='o',
+                    color=plt.cm.Set1(label_id / float(nb_classes)),
+                    linewidth='1',
+                    alpha=0.8,
+                    label=id_to_label_dict[label_id])
+    plt.legend(loc='best')
+    plt.show()
+
+
+def get_data_from_json_file(filename):
+    '''
+    '''
     with open(filename, 'r') as f:
-        data_json = json.load(f)    
+        data_json = json.load(f)
 
     titles = reduce(lambda x, y: x + [y['title']], data_json, [])
     scores = reduce(lambda x, y: x + [int(y['ups'])], data_json, [])
-    scores_avg = sum(scores) / len(scores)
-    scores_median = scores[int(math.floor(len(scores)/2))]
 
+    try:
+        scores_avg = sum(scores) / len(scores)
+    except:
+        scores_avg = 0
+
+    try:
+        scores_median = scores[int(math.floor(len(scores)/2))]
+    except:
+        scores_median = 0
+
+    return titles, scores, scores_avg, scores_median
+
+
+def vectorize_titles(titles):
     # Vectorize
-    vectorizer = TfidfVectorizer(min_df=2, stop_words='english', max_features=30,
+    vectorizer = TfidfVectorizer(min_df=2, stop_words='english',
                                  strip_accents='unicode', lowercase=True, ngram_range=(1, 2),
                                  norm='l2', smooth_idf=True, sublinear_tf=False, use_idf=True)
 
     X = vectorizer.fit_transform(titles)
 
-    flatten = lambda l: [item for sublist in l for item in sublist]
-
-    return (flatten(X.todense().tolist()), scores_avg, scores_median)
+    return X
 
 
 if __name__ == '__main__':
@@ -64,20 +96,28 @@ if __name__ == '__main__':
 
     # Get all files in the folder
     _path = pathlib.Path(FOLDER_PATH)
+
     l = {}
-    vectors = []
-    vectors_coin = []
+
+    titles = []
+    labels = []
+
     for json_filepath in tqdm(_path.iterdir()):
         # Get vector and median/average score
-        v, s_avg, s_median = get_vectors_from_json(json_filepath)
+        t, s, s_avg, s_median = get_data_from_json_file(json_filepath)
 
         coin_name = json_filepath.name.replace('.json', '')
 
         try:
-            # Only care about subreddits with
-            # A large enough community to have
-            # 50 posts (then it has potential)
-            if len(v) < 1500:
+            # Only want subreddits which
+            # have 25 or more posts
+            if len(s) < 25:
+                continue
+
+            # If median score for reddit
+            # post is < 75, ignore, not enough
+            # content quality
+            if s_median < 75:
                 continue
 
             l[coin_name] = {
@@ -85,46 +125,37 @@ if __name__ == '__main__':
                 'score_median': s_median,
                 'coinmarketcap_stats': cmc_data[coin_name]
             }
-            
-            vectors.append(v)
-            vectors_coin.append(coin_name)
+
+            # Extend to titles
+            titles.extend(t)
+
+            # Our labels
+            metric = float(cmc_data[coin_name]['market_cap_usd'])
+
+            if metric >= 1_000_000_000:
+                label_custom = '1Bil++'
+            elif metric >= 250_000_000:
+                label_custom = '250Mil++'
+            elif metric >= 50_000_000:
+                label_custom = '50Mil++'
+            else:
+                label_custom = '<50Mil'
+
+            label = list(map(lambda x: label_custom, s))
+            labels.extend(label)
 
         except Exception as e:
             pass
 
-    # Fit tsne    
-    v_np = np.array(vectors)    
-    x_tsne = TSNE().fit_transform(v_np).tolist()
+    # Plotting stuff
+    label_to_id_dict = {v: i for i, v in enumerate(np.unique(labels))}
+    id_to_label_dict = {v: k for k, v in label_to_id_dict.items()}
+    label_ids = np.array([label_to_id_dict[x] for x in labels])
 
-    # Overwrite l
-    mpl_x = []
-    mpl_y = []
-    mpl_c = []
+    # Vectorize our titles
+    v = vectorize_titles(titles)
+    v_np = np.array(v.todense().tolist())
 
-    for i in range(len(x_tsne)):
-        c = vectors_coin[i]
-        coord = x_tsne[i]
-
-        l[c]['coord'] = coord
-
-        # top 10
-        _rank = int(l[c]['coinmarketcap_stats']['rank'])
-
-        mpl_x.append(x_tsne[i][0])
-        mpl_y.append(x_tsne[i][1])        
-
-        if _rank < 75:
-            mpl_c.append('g')
-        
-        elif _rank < 125:
-            mpl_c.append('y')
-        
-        else:
-            mpl_c.append('r')
-
-    plt.scatter(np.array(mpl_x), np.array(mpl_y), c=np.array(mpl_c))
-    plt.show()
-
-    # Write to file
-    with open(os.path.join(VECTORIZED_PATH, 'crypto_vectors_{}.json'.format(PEROID_TYPE)), 'w') as f:
-        json.dump(l, f)
+    # Fit through PCA / TSNE
+    pca_result = PCA().fit_transform(v_np)
+    visualize_scatter(pca_result, label_ids, id_to_label_dict)

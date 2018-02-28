@@ -1,39 +1,39 @@
 [
     {
         "title": "We have solved the issue of atomic swaps between ERC20 and bitcoin.",
-        "ups": 82
+        "ups": 84
     },
     {
         "title": "Komodo's marketing journey is moving forward: the last and final major building block for a full Komodo whitepaper is finished.",
-        "ups": 68
+        "ups": 64
     },
     {
         "title": "Komodo Platform Releases BarterDEX Windows GUI",
-        "ups": 62
-    },
-    {
-        "title": "Introducing our new Head of Social Media",
-        "ups": 62
-    },
-    {
-        "title": "Nice to see KMD tossed into the ring as the top 3 coins that could beat XRP in 2018 as per the international business times.",
-        "ups": 62
-    },
-    {
-        "title": "Utrum is launching our dICO on Komodo Platform. 10 April 2018",
         "ups": 59
     },
     {
+        "title": "Introducing our new Head of Social Media",
+        "ups": 60
+    },
+    {
+        "title": "Nice to see KMD tossed into the ring as the top 3 coins that could beat XRP in 2018 as per the international business times.",
+        "ups": 58
+    },
+    {
+        "title": "Utrum is launching our dICO on Komodo Platform. 10 April 2018",
+        "ups": 55
+    },
+    {
         "title": "Komodo has a whitepaper. :) We managed to compress it down to 79 pages in the end. Now begins the process of simplification!",
-        "ups": 57
+        "ups": 60
     },
     {
         "title": "Komodo Platform's first monthly Reddit AMA (September 2017)",
-        "ups": 54
+        "ups": 57
     },
     {
         "title": "BarterDEX is ready for dICO's Powered by Atomic Swaps!...... New milestone reached 50,000 Atomic Swaps",
-        "ups": 55
+        "ups": 52
     },
     {
         "title": "The BarterDex trading volume has surpassed 100k Usd in the last 24h (counting all pairs that aren't yet listed on CMC)",
@@ -41,162 +41,62 @@
     },
     {
         "title": "first ETH &lt;-&gt; Komodo (ETOMIC) crosschain atomic swap!",
-        "ups": 51
+        "ups": 54
     },
     {
         "title": "It's finally here: Komodo's \"The BarterDEX\" whitepaper - draft v0.3 beta | Community Feedback Welcome",
-        "ups": 51
-    },
-    {
-        "title": "So far almost 4k Atomic Swaps have taken place on BarterDex see stats",
         "ups": 49
     },
     {
+        "title": "So far almost 4k Atomic Swaps have taken place on BarterDex see stats",
+        "ups": 51
+    },
+    {
         "title": "Next whitepaper is out! This time, it's an explanation of Komodo's privacy tech: Jumblr. Community feedback is welcome.",
-        "ups": 52
+        "ups": 49
     },
     {
         "title": "Fully decentralized ICO using the Komodo Platform.",
-        "ups": 46
-    },
-    {
-        "title": "Komodo comes in at #3 on this article about 10 promising cryptocurrencies to watch in Q1 2018!",
-        "ups": 43
-    },
-    {
-        "title": "Komodo: The Pearl of Crypto (excellent video summary)",
-        "ups": 46
-    },
-    {
-        "title": "After the recent successful test of atomicswaps support for ethereum, a new test demonstrates a swap between eth and erc20 tokens!!!",
-        "ups": 48
-    },
-    {
-        "title": "KMD Komodo is a $1,500 usd coin.",
-        "ups": 45
-    },
-    {
-        "title": "That moment when BarterDEX starts to make your life easier and helps you turn a profit",
-        "ups": 48
-    },
-    {
-        "title": "Komodo's third monthly AMA of December!!!",
         "ups": 44
     },
     {
-        "title": "The official site of the Komodo platform was updated. See...",
-        "ups": 42
-    },
-    {
         "title": "Exciting New Goals Revealed In Our Tech Roadmap!",
-        "ups": 41
+        "ups": 47
     },
     {
-        "title": "Komodo Atomic Swaps count up!",
-        "ups": 41
-    },
-    {
-        "title": "New release BarterDex 0.8.3 has installers for all OS",
+        "title": "Komodo comes in at #3 on this article about 10 promising cryptocurrencies to watch in Q1 2018!",
         "ups": 42
     },
     {
-        "title": "Please hit this tweet like and share and make news medias realise how they are not mentioning the most advanced atomic swap technology BarterDEX. Intentionally or intentionally. Let's show them some user power.",
+        "title": "Komodo: The Pearl of Crypto (excellent video summary)",
         "ups": 45
     },
     {
-        "title": "What is the Komodo Platform? | Beginner's Guide",
-        "ups": 38
+        "title": "After the recent successful test of atomicswaps support for ethereum, a new test demonstrates a swap between eth and erc20 tokens!!!",
+        "ups": 49
     },
     {
-        "title": "Komodo Developers Perform Bitcoin Cash Atomic Swap On the Barterdex Platform",
-        "ups": 39
-    },
-    {
-        "title": "Komodo is not a dragon, it is a monster!",
-        "ups": 39
-    },
-    {
-        "title": "Komodo's BarterDEX - our decentralized (crosschain atomic swap) exchange is finally on coinmarketcap!",
-        "ups": 42
-    },
-    {
-        "title": "BarterDEX takes top spot on /r/ethereum!",
-        "ups": 35
-    },
-    {
-        "title": "World\u2019s First Scalable Atomic Swap Solution.",
-        "ups": 38
-    },
-    {
-        "title": "BarterDEX release v0.7.3-beta is available now.",
-        "ups": 40
-    },
-    {
-        "title": "Komodo Enters Race with Monero, Litecoin, and Bitcoin for Privacy",
+        "title": "KMD Komodo is a $1,500 usd coin.",
         "ups": 43
     },
     {
-        "title": "Just bought litecoin with KomodoPlatform via atomicswap in BarterDex GUI.",
-        "ups": 39
+        "title": "That moment when BarterDEX starts to make your life easier and helps you turn a profit",
+        "ups": 41
     },
     {
-        "title": "Komodo is now live and trading on HitBTC ! Great news !",
-        "ups": 39
+        "title": "Komodo's third monthly AMA of December!!!",
+        "ups": 42
     },
     {
-        "title": "The Monaize dICO Delay is Only Temporary.",
-        "ups": 39
+        "title": "The official site of the Komodo platform was updated. See...",
+        "ups": 44
     },
     {
-        "title": "New BarterDex beta release v0.7.0 includes the capability of \"High Speed\" Atomic Swaps completing at speed of 10-25 seconds.",
-        "ups": 37
+        "title": "Komodo Atomic Swaps count up!",
+        "ups": 46
     },
     {
-        "title": "Komodo Platform will be the Gold Sponsor of the Blockchain Conference in Abu Dhabi!",
-        "ups": 37
-    },
-    {
-        "title": "Second monthly komodo AMA",
-        "ups": 39
-    },
-    {
-        "title": "A Detailed Preliminary Outline for the dICO Process - Community Feedback Welcome",
-        "ups": 32
-    },
-    {
-        "title": "Komodo Team November AMA - Please Post Question Here - Answers on November 28th",
-        "ups": 37
-    },
-    {
-        "title": "Let the money flow! $KMD on Twitter: \"YOU ASKED, WE DELIVERED! The FIRST ever ETH &amp;lt;-&amp;gt; KMD (ETOMIC) crosschain atomic swap! #KMD #ETH #Komodoplatform #Ethereum #barterDEX #DEX #Komodo $kmd $komodo https://t.co/ddNvpk3fha\"",
-        "ups": 37
-    },
-    {
-        "title": "First (of many) BCH &lt;-&gt; KMD atomic swap via barterDEX!",
-        "ups": 35
-    },
-    {
-        "title": "A good answer to my question a couple days ago about what sets Komodo apart from other DEX projects.",
-        "ups": 31
-    },
-    {
-        "title": "BarterDEX Demo HUSH Atomic Swap.",
-        "ups": 33
-    },
-    {
-        "title": "We\u2019ve skyrocketed today !!",
-        "ups": 33
-    },
-    {
-        "title": "This latest BarterDex walkthrough video is better than ever.",
-        "ups": 29
-    },
-    {
-        "title": "Komodo Successfully Makes AtomicSwaps Using Only Electrum Servers.",
-        "ups": 33
-    },
-    {
-        "title": "Komodo and Monaize will meet in Switzerland.",
-        "ups": 36
+        "title": "New release BarterDex 0.8.3 has installers for all OS",
+        "ups": 43
     }
 ]

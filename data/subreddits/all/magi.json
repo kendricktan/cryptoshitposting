@@ -4,12 +4,12 @@
         "ups": 10
     },
     {
-        "title": "A Word About Mining XMG",
-        "ups": 8
-    },
-    {
         "title": "Raspberry Pi 3 hashrates!",
         "ups": 7
+    },
+    {
+        "title": "A Word About Mining XMG",
+        "ups": 9
     },
     {
         "title": "Video: Magi progress in 2017 and features for 2018",
@@ -17,23 +17,23 @@
     },
     {
         "title": "Farms ruining the coin &amp; pools not helping",
-        "ups": 8
+        "ups": 7
     },
     {
         "title": "MagiStats - Android Magicoin information app",
-        "ups": 7
+        "ups": 9
     },
     {
         "title": "[NEWS] Coin Magi Hard Fork",
-        "ups": 7
+        "ups": 6
     },
     {
         "title": "What happened to the network?",
-        "ups": 8
+        "ups": 7
     },
     {
         "title": "Magicoin android application [In Development]",
-        "ups": 7
+        "ups": 8
     },
     {
         "title": "Magi hits new ATH of $3,300,000",
@@ -41,15 +41,15 @@
     },
     {
         "title": "So I heard about you guys on a YouTube video, and decided I would try mining on my laptop...",
-        "ups": 8
+        "ups": 7
     },
     {
         "title": "Your mining setup?",
-        "ups": 6
+        "ups": 7
     },
     {
         "title": "Might be unpopular, but am I the only one that feels Magi could use a graphical \"overhaul\"?",
-        "ups": 5
+        "ups": 6
     },
     {
         "title": "Pi performance",
@@ -57,11 +57,11 @@
     },
     {
         "title": "[Tutorial] Creating a XMG specific, secure, air-gapped, Cold Storage Address/Wallet",
-        "ups": 6
+        "ups": 5
     },
     {
         "title": "Python Mining",
-        "ups": 7
+        "ups": 6
     },
     {
         "title": "Magicoin Wallet on Raspberry",
@@ -69,11 +69,11 @@
     },
     {
         "title": "Cryptotastic.net",
-        "ups": 7
+        "ups": 6
     },
     {
         "title": "What happened to all the pools?",
-        "ups": 4
+        "ups": 5
     },
     {
         "title": "why has this coin blown up recently?",
@@ -85,7 +85,7 @@
     },
     {
         "title": "SBC Mining Builds",
-        "ups": 5
+        "ups": 6
     },
     {
         "title": "Hashrate Calculations",
@@ -93,110 +93,10 @@
     },
     {
         "title": "Network Hashrate &gt; 60MH/s",
-        "ups": 6
+        "ups": 5
     },
     {
         "title": "Welcome to the Magi Community",
-        "ups": 4
-    },
-    {
-        "title": "Magi Coin wallet on Raspberry Pi",
-        "ups": 6
-    },
-    {
-        "title": "MAGI XMG mining support give-away",
-        "ups": 3
-    },
-    {
-        "title": "Android app for easy magicoin price info, conversions and pool data!",
-        "ups": 4
-    },
-    {
-        "title": "New mining pool. https://cryptotastic.net",
-        "ups": 5
-    },
-    {
-        "title": "Portable/browser mining",
-        "ups": 4
-    },
-    {
-        "title": "RPI3/OS64 Mining, Heat Sink Necessary",
-        "ups": 3
-    },
-    {
-        "title": "m-wallet version v1.4.5.3",
-        "ups": 4
-    },
-    {
-        "title": "After the hardfork.. What will happen?",
-        "ups": 4
-    },
-    {
-        "title": "hard fork will be at block #1606950",
-        "ups": 4
-    },
-    {
-        "title": "stylesheet changes",
-        "ups": 5
-    },
-    {
-        "title": "Magi hard fork New Years Eve ~22:00 CET",
-        "ups": 3
-    },
-    {
-        "title": "You know what would be fun.....",
-        "ups": 3
-    },
-    {
-        "title": "How are people still mining the chain?",
-        "ups": 3
-    },
-    {
-        "title": "Persistent Live USB for Mining",
-        "ups": 3
-    },
-    {
-        "title": "Am I mining correctly ?",
-        "ups": 3
-    },
-    {
-        "title": "First time miner",
-        "ups": 2
-    },
-    {
-        "title": "Magi Mining Pools",
-        "ups": 5
-    },
-    {
-        "title": "Solo mining \"pool\"",
-        "ups": 4
-    },
-    {
-        "title": "RPI Solo Mining with Wolf-m7m-cpuminer",
-        "ups": 5
-    },
-    {
-        "title": "[Tutorial and Info] Mac OS X and M-Wallet ... aka \"Where the Heck are my files and why is Sync taking so long?\"",
-        "ups": 3
-    },
-    {
-        "title": "Wallet - High Res mode/version?",
-        "ups": 4
-    },
-    {
-        "title": "how much XMG do I have to have to start staking?",
-        "ups": 4
-    },
-    {
-        "title": "Do I have to use a wallet?",
-        "ups": 4
-    },
-    {
-        "title": "XMG Mining Hardware Benchmarks",
-        "ups": 4
-    },
-    {
-        "title": "Could someone please explain why a part of my coins is not staking? The transfer of 5 coins was done like two days ago. Why is it not staking that?",
         "ups": 4
     }
 ]

@@ -1,35 +1,35 @@
 [
     {
         "title": "Call for action: What can I do to help Ethereum Classic project?",
-        "ups": 219
+        "ups": 224
     },
     {
         "title": "Hard fork went smoothly, Ethereum Classic chain is alive and kicking!",
-        "ups": 144
+        "ups": 141
     },
     {
         "title": "1.4.10 - First stable release of the Ethereum Classic geth binaries exclusively built for ETC, no flags, no DAO code",
-        "ups": 109
+        "ups": 114
     },
     {
         "title": "Charles Hoskinson: I never thought I'd tweet this...I'm rejoining Ethereum to start making contributions to Classic. Will report more later.",
-        "ups": 111
+        "ups": 112
     },
     {
         "title": "Kraken Exchange: \"We will be launching full support for Ethereum Classic. Clients holding $ETH at the fork will receive $ETC. More details soon.\"",
-        "ups": 98
+        "ups": 93
     },
     {
         "title": "As a Community We should end the Vitriol Against Ethereum and move Forward.",
-        "ups": 88
+        "ups": 92
     },
     {
         "title": "New to Classic? Looking to learn more? Read this first.",
-        "ups": 91
+        "ups": 86
     },
     {
         "title": "Historical moment!!! Volume of ETC has exceeded the volume of ETH.",
-        "ups": 87
+        "ups": 85
     },
     {
         "title": "BREAKING: Chinese eTH exchange Yunbi to list ETC tomorrow",
@@ -37,47 +37,47 @@
     },
     {
         "title": "Where we go now!!!!!!!!!!!!!! ETC",
-        "ups": 82
-    },
-    {
-        "title": "Barry Silbert: \"Bought my first non-bitcoin digital currency...Ethereum Classic (ETC) At $0.50, risk/return felt right. And I'm philosophically on board\"",
-        "ups": 87
-    },
-    {
-        "title": "Vitalik Buterin says he won't support ETC even if it overtakes ETH.",
         "ups": 84
     },
     {
+        "title": "Barry Silbert: \"Bought my first non-bitcoin digital currency...Ethereum Classic (ETC) At $0.50, risk/return felt right. And I'm philosophically on board\"",
+        "ups": 86
+    },
+    {
+        "title": "Vitalik Buterin says he won't support ETC even if it overtakes ETH.",
+        "ups": 80
+    },
+    {
         "title": "Yes, the \"attacker\" keeps his ETH in this chain. No, he's not coming from the clouds to rain philanthropy upon us",
-        "ups": 77
+        "ups": 79
     },
     {
         "title": "HERE WE GO . ETHEREUM CLASSIC (ETC) TO MOON ?",
-        "ups": 71
+        "ups": 77
     },
     {
         "title": "My 600M hashing power now 100% in ETC Network.",
-        "ups": 74
+        "ups": 71
     },
     {
         "title": "Zane confirms, Bitfinex will be listing ETC!!",
-        "ups": 72
+        "ups": 71
     },
     {
         "title": "\u0243ruce Wanker: \"@stephantual convinced a $1b network to split in two. So he could avoid liability for losing over $50m.\"",
-        "ups": 74
+        "ups": 73
     },
     {
         "title": "Ethereum Classic is 1 year old today-- happy birthday! $ETH is today 9 days old",
-        "ups": 74
-    },
-    {
-        "title": "EthereumClassic has a new blockchain explorer! It's open source so now anyone can fork Ethereum and have an explorer http://blocks.elaineou.com",
         "ups": 68
     },
     {
+        "title": "EthereumClassic has a new blockchain explorer! It's open source so now anyone can fork Ethereum and have an explorer http://blocks.elaineou.com",
+        "ups": 72
+    },
+    {
         "title": "The Robin Hood Group and ETC - Jack Sparrow",
-        "ups": 65
+        "ups": 71
     },
     {
         "title": "Getting things done in a decentralized way",
@@ -85,118 +85,18 @@
     },
     {
         "title": "The Complete Story of Ethereum so far",
-        "ups": 63
+        "ups": 68
     },
     {
         "title": "Breaking :ETC Network now @ record high with over 800 GH/s !",
-        "ups": 65
+        "ups": 64
     },
     {
         "title": "LEAKED: Ethereum Foundation Skype Messages. DEVs Seem To Only Care About \"Free Money\"",
-        "ups": 59
-    },
-    {
-        "title": "Erik Voorhees:\"Regarding ETC, @ShapeShift_io is considering adding it to the platform for trading. Will see how it progresses over next 24hrs.\"",
-        "ups": 62
-    },
-    {
-        "title": "WARNING: my-etherwallet.com is a phishing site.",
-        "ups": 62
-    },
-    {
-        "title": "Silent No More - Was Ethereum Classic Right ?",
-        "ups": 59
-    },
-    {
-        "title": "Follow Up Statement on the ETC Salvaged from attackDAOs",
-        "ups": 57
-    },
-    {
-        "title": "Immutability is valuable. This is a historic moment.",
-        "ups": 59
-    },
-    {
-        "title": "1:10",
-        "ups": 57
-    },
-    {
-        "title": "re: The ETC Salvaged From AttackDAOs",
-        "ups": 60
-    },
-    {
-        "title": "Why I switched to ETC 100%",
-        "ups": 62
-    },
-    {
-        "title": "Barry Silbert: Moved ~5% of my personal bitcoin holdings to ETC this afternoon",
         "ups": 63
     },
     {
-        "title": "ETC should NOT be trying to distinguish itself with its own dev team, its own roadmap, etc",
-        "ups": 60
-    },
-    {
-        "title": "Ethereum Classic (ETC) Will Rise to $100, My 4 Reasons indicating the Rise",
-        "ups": 60
-    },
-    {
-        "title": "Look who\u2019s been invited to the party: Full Support of Ethereum Classic Coming to Jaxx",
-        "ups": 56
-    },
-    {
-        "title": "To be clear, it not only makes no sense for us to change txn nonce, it hurts us by disconnecting us from all the existing old clients on the network - We should not do that",
-        "ups": 57
-    },
-    {
-        "title": "EthereumClassic: ideology, motivation, goals and plan",
-        "ups": 58
-    },
-    {
-        "title": "Kraken:\"If we had followed the advice of the foundation... we could have been short 10 million ETC\"",
-        "ups": 57
-    },
-    {
-        "title": "ShapeShift releases Ethereum Splitter - Cleanly separate ETH and ETC",
-        "ups": 57
-    },
-    {
-        "title": "cnLedger: \"BREAKING: a top CN btc exchange, arguably the largest eth exchange in China, CHBTC just announced to list ETC today\"",
-        "ups": 59
-    },
-    {
-        "title": "Chinese Bitcoin angle investor Chandler Guo said he will sopport ETC and throw his 120G mining power into different ETC mining pool.",
-        "ups": 54
-    },
-    {
-        "title": "Why Stampery supports Ethereum Classic",
-        "ups": 55
-    },
-    {
-        "title": "The reason for traders to get excited about ETC is simple: a billion dollar asset is mistakenly being traded for 1/10th of the price it was a few weeks ago.",
-        "ups": 55
-    },
-    {
-        "title": "Gavin Wood Supporting Ethereum Classic - Parity",
-        "ups": 57
-    },
-    {
-        "title": "ETHC has just surpassed ETH as the most profitable coin to mine on in the whole of the cryptosphere!",
-        "ups": 56
-    },
-    {
-        "title": "Should ETC be on Coinbase?",
-        "ups": 54
-    },
-    {
-        "title": "ETC Summit: Hong Kong, November 13-14",
-        "ups": 57
-    },
-    {
-        "title": "White Hat Hackers Caught Red-handed During Atttempted ETC Sell-off",
-        "ups": 57
-    },
-    {
-        "title": "The truth about the fork (by /u/avsa)",
-        "ups": 57
+        "title": "Erik Voorhees:\"Regarding ETC, @ShapeShift_io is considering adding it to the platform for trading. Will see how it progresses over next 24hrs.\"",
+        "ups": 63
     }
 ]

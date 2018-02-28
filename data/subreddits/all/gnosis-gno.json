@@ -5,39 +5,39 @@
     },
     {
         "title": "All over in less than 10 mins.",
-        "ups": 14
+        "ups": 15
+    },
+    {
+        "title": "We\u2019re so excited to launch Gnosis X\u2014the first step to build out a powerful, decentralized network on top of Gnosis.",
+        "ups": 13
     },
     {
         "title": "Olympia Is Live!",
         "ups": 14
     },
     {
-        "title": "We\u2019re so excited to launch Gnosis X\u2014the first step to build out a powerful, decentralized network on top of Gnosis.",
-        "ups": 14
-    },
-    {
         "title": "Gnosis Bug Bounty Round II $50k bounty for severe bugs",
-        "ups": 14
-    },
-    {
-        "title": "Take a look at our detailed background and reasoning for the Gnosis token model",
         "ups": 11
     },
     {
+        "title": "Take a look at our detailed background and reasoning for the Gnosis token model",
+        "ups": 13
+    },
+    {
         "title": "Our blogpost to introduce Gnosis tokens: \u2014 The new access based token model",
-        "ups": 14
+        "ups": 13
     },
     {
         "title": "Robin Hanson, the father of prediction markets, joined the Gnosis Advisory team!",
-        "ups": 12
+        "ups": 11
     },
     {
         "title": "Big news! The first audit of our smart contacts is done. Once deployed we will never live in a world again without open prediction markets. - Gnosis on Twitter",
-        "ups": 12
+        "ups": 11
     },
     {
         "title": "20 ETH bounty: create an infographic which clearly and colorfully explains how Augur and Gnosis compare when resolving contentious markets using the 2000 presidential election as a reference point",
-        "ups": 12
+        "ups": 13
     },
     {
         "title": "Gnosis is coming along. While we're currently wrapping up a second security audit and will be starting a public bug bounty program soon, have a look at the interface\u2014it'll soon allow you to create and trade markets. \u2022 r/ethereum",
@@ -45,19 +45,19 @@
     },
     {
         "title": "Complaints regarding Gnosis token overvaluation",
-        "ups": 11
-    },
-    {
-        "title": "For the record: Gnosis is 100% NOT a spin-off of Augur - we had a version live on the main Ethereum net before Augur even did it's crowd sale. Otherwise nice read about the different blockchain prediction markets.",
-        "ups": 11
-    },
-    {
-        "title": "One of our designers came up with a suggestion for how a flight insurance app will look like",
         "ups": 10
     },
     {
+        "title": "For the record: Gnosis is 100% NOT a spin-off of Augur - we had a version live on the main Ethereum net before Augur even did it's crowd sale. Otherwise nice read about the different blockchain prediction markets.",
+        "ups": 10
+    },
+    {
+        "title": "One of our designers came up with a suggestion for how a flight insurance app will look like",
+        "ups": 11
+    },
+    {
         "title": "\"This is what a login to Gnosis with @uport_me looks like. No username, no password - just a self sovereign identity.\"",
-        "ups": 13
+        "ups": 12
     },
     {
         "title": "Yes - soon you can make a prediction as easy as answering a tweet and scanning a QR code.",
@@ -69,7 +69,7 @@
     },
     {
         "title": "Over 13% of all Ether are controlled by just two single keys - here is why and how we want to fix it! - Gnosis team publishes new multisig wallet with cold storage support und decent UI \u2022 r/ethereum",
-        "ups": 11
+        "ups": 10
     },
     {
         "title": "When is the ICO?",
@@ -81,7 +81,7 @@
     },
     {
         "title": "Is anyone actually interested in building a prediction site with gnosis?",
-        "ups": 10
+        "ups": 8
     },
     {
         "title": "We're starting 2018 with a fresh, new website.",
@@ -89,114 +89,14 @@
     },
     {
         "title": "Gnosis up 35% in the last few hours. Any news that I missed?",
-        "ups": 9
+        "ups": 10
     },
     {
         "title": "Major updates from Gnosis in our first community call: Olympia, our first prediction market tournament; DutchX, an auction-based decentralized exchange; and Gnosis Safe, a consumer version of the Multisig wallet.",
-        "ups": 10
+        "ups": 7
     },
     {
         "title": "Be among the first ones to try out trading on prediction markets by Gnosis! You can now take part in Olympia, our first prediction market tournament.",
-        "ups": 7
-    },
-    {
-        "title": "Gnosis Community Call #1",
         "ups": 10
-    },
-    {
-        "title": "Announcing The First Active Tokens in the Bancor Decentralized Liquidity Network",
-        "ups": 8
-    },
-    {
-        "title": "Gnosis Vs Augur",
-        "ups": 9
-    },
-    {
-        "title": "Straightforward way of thinking about the value of GNO",
-        "ups": 9
-    },
-    {
-        "title": "Koppelmann to Reuters: \"Gnosis to freeze tokens after strong sale\"",
-        "ups": 10
-    },
-    {
-        "title": "Sneak Peek on the token sale site (still last polishment to be made)",
-        "ups": 10
-    },
-    {
-        "title": "What should we expect from Gnosis's Futarchy DAO?",
-        "ups": 8
-    },
-    {
-        "title": "Would love to hear how is this project different from AUGUR project",
-        "ups": 11
-    },
-    {
-        "title": "Web3 Foundation Meetup in Berlin: A deep dive into Decentralized Exchanges \u2014 All talks will be recorded and shared after the event!",
-        "ups": 7
-    },
-    {
-        "title": "What motivated us to build a decentralized exchange based on the Dutch auction principle.",
-        "ups": 6
-    },
-    {
-        "title": "Olympia starting within a week.",
-        "ups": 9
-    },
-    {
-        "title": "99% of surplus GNO have just been moved from the Gnosis-AuctionWallet",
-        "ups": 9
-    },
-    {
-        "title": "An overview of the main reasons for our auction model and the token model",
-        "ups": 10
-    },
-    {
-        "title": "\"The decentralized prediction market may be beaten to the launch pad by its older competitor (Augur), but Gnosis\u2019 reputation already precedes it.\" - Gnosis mentioned in a list of most interesting ICOs 2017",
-        "ups": 9
-    },
-    {
-        "title": "Creating a Decentralized Security Rewards Market",
-        "ups": 8
-    },
-    {
-        "title": "Matt giving a Gnosis talk at the CONSTRUCT 2017 in San Francisco",
-        "ups": 9
-    },
-    {
-        "title": "The list for potential Gnosis apps is endless: \"FantasySCOTUS allows attorneys, law students and others to predict how justices will vote on cases pending before the high court, with winners and prizes announced at the end of each term.\"",
-        "ups": 9
-    },
-    {
-        "title": "Gnosis is talked about mainly on twitter. Not much activity on reddit. In general, gnosis has relatively low social volume. What do you think?",
-        "ups": 7
-    },
-    {
-        "title": "Check who are the 10 top holders of Gnosis token and see which other tokens do they own.",
-        "ups": 6
-    },
-    {
-        "title": "Why is Augur REP value so much higher than GNO?",
-        "ups": 7
-    },
-    {
-        "title": "For Those of You Who Are Unaware-Gnosis Relies Heavily on The Success of The Raiden Network-Transaction Scaling Should Be On The Top Of Our Minds!",
-        "ups": 7
-    },
-    {
-        "title": "2017 Retro and our Roadmap for the Year Ahead",
-        "ups": 8
-    },
-    {
-        "title": "With decentralization, we don\u2019t need to build trust relationships first before we can start to collaborate.",
-        "ups": 7
-    },
-    {
-        "title": "Breaking the Silence \u2013 Gnosis",
-        "ups": 5
-    },
-    {
-        "title": "Gnosis betting - How can you create bets and how to take part?",
-        "ups": 5
     }
 ]

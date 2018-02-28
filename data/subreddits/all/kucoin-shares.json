@@ -1,202 +1,102 @@
 [
     {
         "title": "@Team Kucoin - Can we get Ark on the exchange please?",
-        "ups": 202
+        "ups": 204
     },
     {
         "title": "New to Kucoin? Check this out [FAQ]",
-        "ups": 153
+        "ups": 157
     },
     {
         "title": "Still no answers, please upvote so Kucoin will answer!",
-        "ups": 138
+        "ups": 144
     },
     {
         "title": "Kucoin admin responds to recent FUD",
-        "ups": 132
+        "ups": 135
     },
     {
         "title": "Kucoin coin voting scandal",
-        "ups": 122
+        "ups": 125
     },
     {
         "title": "RPX withdraw now available!",
-        "ups": 110
-    },
-    {
-        "title": "Kucoin fixed my 2fa lost in less than 24 hours",
-        "ups": 103
+        "ups": 109
     },
     {
         "title": "No stop limit orders?",
-        "ups": 103
+        "ups": 111
+    },
+    {
+        "title": "Kucoin fixed my 2fa lost in less than 24 hours",
+        "ups": 105
     },
     {
         "title": "Kucoin will list VeChain (VEN) on 25th, October",
-        "ups": 98
-    },
-    {
-        "title": "Kucoin Exchange has been added to CoinMarketCap!",
-        "ups": 95
+        "ups": 101
     },
     {
         "title": "0% fee rate promotion in WTC and HSR markets for a month",
-        "ups": 100
+        "ups": 99
     },
     {
         "title": "Kucoin has implemented TradingView to the exchange",
-        "ups": 93
+        "ups": 99
     },
     {
-        "title": "Congrats Kucoin! Over $200,000,000 transaction today!",
-        "ups": 94
+        "title": "Kucoin Exchange has been added to CoinMarketCap!",
+        "ups": 96
     },
     {
         "title": "Kucoin will add KCS/USDT trading pair on 18th, October",
-        "ups": 98
+        "ups": 96
+    },
+    {
+        "title": "Congrats Kucoin! Over $200,000,000 transaction today!",
+        "ups": 99
+    },
+    {
+        "title": "Kucoin launchs Kucoin Bonus plan, we share 50% of the trading fees to KCS holders!",
+        "ups": 94
     },
     {
         "title": "Kucoin needs to start adding more top 50 coins",
         "ups": 92
     },
     {
-        "title": "Kucoin launchs Kucoin Bonus plan, we share 50% of the trading fees to KCS holders!",
-        "ups": 89
+        "title": "Kucoin will add Ethereum market on 14th, October",
+        "ups": 88
     },
     {
         "title": "Kucoin listed Kyber Network KNC",
-        "ups": 91
-    },
-    {
-        "title": "KuCoin must enable BCD deposits ASAP!",
-        "ups": 85
-    },
-    {
-        "title": "Kucoin will add Ethereum market on 14th, October",
-        "ups": 91
-    },
-    {
-        "title": "Great news: 80% trading fee discount for Kucoin traders",
-        "ups": 84
+        "ups": 89
     },
     {
         "title": "Kucoin is a new international blockchain assets exchange",
-        "ups": 90
+        "ups": 87
+    },
+    {
+        "title": "KuCoin must enable BCD deposits ASAP!",
+        "ups": 89
     },
     {
         "title": "Kucoin will list Hshare (HSR) on 18th, October",
+        "ups": 88
+    },
+    {
+        "title": "Great news: 80% trading fee discount for Kucoin traders",
+        "ups": 91
+    },
+    {
+        "title": "Kucoin distributes GAS to NEO holders!",
+        "ups": 86
+    },
+    {
+        "title": "Kucoin will list Black Hole Coin on 10th, October",
         "ups": 84
     },
     {
         "title": "For everyone facing ETH withdrawal Issues..",
         "ups": 83
-    },
-    {
-        "title": "Kucoin distributes GAS to NEO holders!",
-        "ups": 84
-    },
-    {
-        "title": "Please kucoin, we need some way of exporting our transactions in a csv file for taxes",
-        "ups": 81
-    },
-    {
-        "title": "Kucoin will list Black Hole Coin on 10th, October",
-        "ups": 79
-    },
-    {
-        "title": "Add Lisk!",
-        "ups": 77
-    },
-    {
-        "title": "An open letter to Kucoin",
-        "ups": 76
-    },
-    {
-        "title": "A short tip for deposits of ERC20 tokens",
-        "ups": 79
-    },
-    {
-        "title": "Kucoin will list DigiByte (DGB) on 6th, November",
-        "ups": 80
-    },
-    {
-        "title": "Kucoin will officially add USDT market on 4th, October",
-        "ups": 76
-    },
-    {
-        "title": "KuCoin, me and at least 25 others want a stop limit order!",
-        "ups": 77
-    },
-    {
-        "title": "Comment below if your coins are stuck in Reserved Assets",
-        "ups": 78
-    },
-    {
-        "title": "Kucoin whitepaper released!",
-        "ups": 77
-    },
-    {
-        "title": "Kucoin will launch Invitation Bonus plan on 1st, October.",
-        "ups": 78
-    },
-    {
-        "title": "KuCoin suspends referral program",
-        "ups": 73
-    },
-    {
-        "title": "KUCOIN FIX YOUR WITHDRAWAL!",
-        "ups": 74
-    },
-    {
-        "title": "KuCoin is registered in Hong Kong, NOT Mainland China!",
-        "ups": 70
-    },
-    {
-        "title": "Please consider delisting Bitcoin Diamond (BCD) from KuCoin - SCAM ALERT",
-        "ups": 66
-    },
-    {
-        "title": "eBTC Kucoin coin vote fraud with proof.",
-        "ups": 65
-    },
-    {
-        "title": "IMPORTANT account information!!! Write down your 2FA code!",
-        "ups": 61
-    },
-    {
-        "title": "Kucoin daily volume is rising faster than bitcoin price is rising",
-        "ups": 61
-    },
-    {
-        "title": "@TeamKuCoin - Please add Vertcoin!",
-        "ups": 65
-    },
-    {
-        "title": "KuCoin assures its users that we will pay 100% of all the giveaways",
-        "ups": 61
-    },
-    {
-        "title": "KuCoin Lists One Of The Most Popular ICOs of 2017: Confido Will Be Tradable On Wednesday November 8th.",
-        "ups": 62
-    },
-    {
-        "title": "Ethereum withdrawal issues? Post yours here.",
-        "ups": 58
-    },
-    {
-        "title": "OPINION: Posting referral links in this subreddit should be BANNED.",
-        "ups": 57
-    },
-    {
-        "title": "@Team Kucoin - Please stop killing KCS holders!",
-        "ups": 61
-    },
-    {
-        "title": "KuCoin, please list Spectrecoin (XSPEC)",
-        "ups": 57
-    },
-    {
-        "title": "To everyone freaking out about Kucoin...",
-        "ups": 58
     }
 ]

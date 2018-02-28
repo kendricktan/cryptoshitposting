@@ -1,27 +1,27 @@
 [
     {
         "title": "Imogen Heap Announces Mycelia will be built on RChain in Partnership with Resonate",
-        "ups": 48
+        "ups": 47
     },
     {
         "title": "Greg Meredith &amp; Nash Foster on Epicenter Podcast discussing RChain's Scalable, Concurrent and Performant Blockchain",
-        "ups": 42
+        "ups": 39
     },
     {
         "title": "Rholang SDK (v0.1) Released!",
-        "ups": 35
+        "ups": 37
     },
     {
         "title": "Advantages of Rchain: replicating the heart of technology behind Goldman Sach's technology: SecDB",
-        "ups": 36
+        "ups": 32
     },
     {
         "title": "RChain Review - The future of Blockchain",
-        "ups": 33
+        "ups": 31
     },
     {
         "title": "RChain is seriously undervalued.",
-        "ups": 35
+        "ups": 31
     },
     {
         "title": "Rchain node testing - birth of a new network",
@@ -29,15 +29,15 @@
     },
     {
         "title": "RHOLang (RChain's smart contract language) Beginners Tutorial",
-        "ups": 30
-    },
-    {
-        "title": "Development Update for Jan 15th, 2018",
         "ups": 29
     },
     {
+        "title": "Development Update for Jan 15th, 2018",
+        "ups": 30
+    },
+    {
         "title": "Welcome to RChain Subreddit! Here's a list of Official RChain Channels to get started.",
-        "ups": 28
+        "ups": 29
     },
     {
         "title": "RChain Co-op Is Building Blockchain Infrastructure For World Interoperability",
@@ -45,7 +45,7 @@
     },
     {
         "title": "Excellent tweet storm from Sizhao Yang highlights benefits of Rchain's rho calculus, namespaces, concurrency and more.",
-        "ups": 25
+        "ups": 26
     },
     {
         "title": "Two Credit Card companies already looking at RChain for micropayments (Blockchain Brad at 23m 18s)",
@@ -53,11 +53,11 @@
     },
     {
         "title": "Surprised this wasn't on reddit yet",
-        "ups": 24
+        "ups": 23
     },
     {
         "title": "What's the main advantage of Rchain compared with ethereum with raiden network\u3001sharding and PoS?",
-        "ups": 20
+        "ups": 21
     },
     {
         "title": "RChain pre-alpha Hello.Node v0.1 software released",
@@ -65,15 +65,19 @@
     },
     {
         "title": "Rchain Project Overview - High Capacity Ethereum Blockchain Killer",
-        "ups": 19
+        "ups": 22
     },
     {
         "title": "RChain Governance Forum invitation.",
-        "ups": 18
+        "ups": 20
+    },
+    {
+        "title": "RChain finally getting on some youtube top lists! We are getting recognized guys!",
+        "ups": 19
     },
     {
         "title": "RChain \u2013 Multi-Threading Blockchain (Review by CryptoSyndicate)",
-        "ups": 18
+        "ups": 19
     },
     {
         "title": "Blockchain Security Summit - Solving Blockchain Scalability - RChain's Navneet Suman",
@@ -81,7 +85,7 @@
     },
     {
         "title": "Is now a good time to get in?",
-        "ups": 18
+        "ups": 19
     },
     {
         "title": "Uses for the RHOC token?",
@@ -89,114 +93,10 @@
     },
     {
         "title": "RChain with a jump in tweets mentions yesterday",
-        "ups": 18
+        "ups": 17
     },
     {
         "title": "New Members from Amazon Hype",
-        "ups": 19
-    },
-    {
-        "title": "RChain is getting listed on KuCoin",
-        "ups": 20
-    },
-    {
-        "title": "RChain finally getting on some youtube top lists! We are getting recognized guys!",
-        "ups": 17
-    },
-    {
-        "title": "Pyrofex hosted its first meetup in our Provo office. Mike Stay gave a lecture on Rholang, which may be of interest, and did a few simple demos using the upcoming SDK",
-        "ups": 17
-    },
-    {
-        "title": "Development Update #6 for the Community",
-        "ups": 16
-    },
-    {
-        "title": "Lawrence and Nash foster went on Blockchain Brad and the video dropped today.",
         "ups": 18
-    },
-    {
-        "title": "New blog post about RChain's Correct-by-Construction Casper implementation",
-        "ups": 17
-    },
-    {
-        "title": "Vlad Zamfir says RChain is one of his favorite blockchain projects",
-        "ups": 18
-    },
-    {
-        "title": "Help with an EL15 Post",
-        "ups": 15
-    },
-    {
-        "title": "Rchain Community Debrief 59",
-        "ups": 17
-    },
-    {
-        "title": "Rchain outlook",
-        "ups": 15
-    },
-    {
-        "title": "RChain is BOOMING on Kucoin!",
-        "ups": 17
-    },
-    {
-        "title": "Upcoming Event: Governance Forum - February 15, 2018 12:00 AM - February 18, 2018 11:59 PM",
-        "ups": 15
-    },
-    {
-        "title": "Is there a planned date for starting the mainnet?",
-        "ups": 14
-    },
-    {
-        "title": "Development Update 8",
-        "ups": 14
-    },
-    {
-        "title": "Rchain Community Hangout 62",
-        "ups": 15
-    },
-    {
-        "title": "Development Update for the Week of 22nd Jan 2018",
-        "ups": 15
-    },
-    {
-        "title": "RChain Community Hangout 60",
-        "ups": 15
-    },
-    {
-        "title": "Rchain Token Burning",
-        "ups": 13
-    },
-    {
-        "title": "Scaling And Parallelism",
-        "ups": 15
-    },
-    {
-        "title": "Development Update 24/01/2018",
-        "ups": 14
-    },
-    {
-        "title": "KuCoin: RHOCs have been finally added!",
-        "ups": 13
-    },
-    {
-        "title": "Cryptofex cross-chain migration",
-        "ups": 13
-    },
-    {
-        "title": "Wednesday RChain Debrief 63 is live now!",
-        "ups": 13
-    },
-    {
-        "title": "A Storm is Coming, Our Storm",
-        "ups": 13
-    },
-    {
-        "title": "A Look at Seattle-based RChain\u2019s Plans to Build a Scalable &amp; Safe Blockchain",
-        "ups": 13
-    },
-    {
-        "title": "Rchain similarities/differences between ethereum and Raiblocks?",
-        "ups": 13
     }
 ]

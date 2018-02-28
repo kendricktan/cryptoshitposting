@@ -1,27 +1,27 @@
 [
     {
         "title": "Doubt from Decred?",
-        "ups": 13
+        "ups": 10
     },
     {
         "title": "Hcash Mainchain Will Be Launched in Mid-February",
-        "ups": 9
+        "ups": 10
     },
     {
         "title": "Concerns and Answers #2",
-        "ups": 9
+        "ups": 10
     },
     {
         "title": "2nd Round of our AMA!",
-        "ups": 7
+        "ups": 8
     },
     {
         "title": "Proving them wrong",
-        "ups": 9
+        "ups": 7
     },
     {
         "title": "1st Round AMA Answers!",
-        "ups": 9
+        "ups": 8
     },
     {
         "title": "Why Hcash's Interoperability will Change the Crypto Community",
@@ -29,11 +29,11 @@
     },
     {
         "title": "Main chain will take us to the top",
-        "ups": 8
+        "ups": 6
     },
     {
         "title": "Only time will tell if it's really coming mid-February",
-        "ups": 6
+        "ups": 8
     },
     {
         "title": "[Announcement] A formal Cooperation Has Been Reached Between UnitedBitcoin Foundation and Hcash Foundation",
@@ -41,11 +41,11 @@
     },
     {
         "title": "Weekly Dev Update 2/2/18 \u2014 Options on Interoperability",
-        "ups": 5
+        "ups": 4
     },
     {
         "title": "Help our community grow and win HSR!",
-        "ups": 6
+        "ups": 5
     },
     {
         "title": "Coinmaniac posted an excellent article about the future of block chain in China mentioning Hcash! Check it out!",
@@ -57,19 +57,23 @@
     },
     {
         "title": "When is Telegram? When is Discord?",
-        "ups": 3
+        "ups": 7
     },
     {
         "title": "1st Official Hcash AMA! Your chance to ask the Nucleus Team Developers Anything!",
-        "ups": 3
+        "ups": 5
     },
     {
         "title": "Progress on Hcash's Post-Quantum R&amp;D[Part 2]",
-        "ups": 3
+        "ups": 5
+    },
+    {
+        "title": "Technology Vs Trading",
+        "ups": 6
     },
     {
         "title": "Hshare wants to create a new standard for value | ItsBlockchain",
-        "ups": 2
+        "ups": 4
     },
     {
         "title": "Seriously, Get your shit together!",
@@ -77,7 +81,7 @@
     },
     {
         "title": "Dev Update?",
-        "ups": 3
+        "ups": 4
     },
     {
         "title": "Is the main chain the second coming of Jesus?",
@@ -85,7 +89,7 @@
     },
     {
         "title": "Hshare pullback near $20.00 USD",
-        "ups": 5
+        "ups": 6
     },
     {
         "title": "Jan 24 2018 Crypto Market Report - Contains Hshare",
@@ -94,109 +98,5 @@
     {
         "title": "Weekly Dev Update January 20th, 2018 \u2013 Countdown to the Main Chain",
         "ups": 4
-    },
-    {
-        "title": "SO LIFE IS GOOD!! I HAVE TO ASK",
-        "ups": 3
-    },
-    {
-        "title": "Dead github",
-        "ups": 3
-    },
-    {
-        "title": "Progress on Hcash's Post-Quantum R&amp;D [Part 1]",
-        "ups": 6
-    },
-    {
-        "title": "Seems like LWE-based encryption is not quantum secure after all: \"our algorithm shows a possible way for attacking LWE-based encryption by using classical samples to approximate the quantum sample state, since then using our quantum learning algorithm would solve LWE\"",
-        "ups": 3
-    },
-    {
-        "title": "Technology Vs Trading",
-        "ups": 3
-    },
-    {
-        "title": "PLEASE tell me when will you launch the main chain \uff1f",
-        "ups": 3
-    },
-    {
-        "title": "Hcash Main chain release date?",
-        "ups": 2
-    },
-    {
-        "title": "Please Be Aware of Any Airdrop Scams!",
-        "ups": 2
-    },
-    {
-        "title": "Jan 29 2018 Crypto Market Report - Contains Hshare",
-        "ups": 3
-    },
-    {
-        "title": "the hcash will publish the main net in 14th february,it will be stroger,it will be faster,it will be beautifully,it is a big bang news",
-        "ups": 2
-    },
-    {
-        "title": "I would like the resume of CTO Khal Achkar",
-        "ups": 3
-    },
-    {
-        "title": "\"What Is Hshare/Hcash?\" from themerkle.com",
-        "ups": 1
-    },
-    {
-        "title": "Jan 25 2018 Crypto Market Report - Contains Hshare",
-        "ups": 3
-    },
-    {
-        "title": "Is HShare PoS Mining Wallet available for Windows 32 bit mode?",
-        "ups": 3
-    },
-    {
-        "title": "The Second Round of Hcash Lock Position Incentive Plan",
-        "ups": 3
-    },
-    {
-        "title": "Important! Hcash Lock Position Incentive Plan",
-        "ups": 3
-    },
-    {
-        "title": "In case you did not know, we are a member of the ADCA (Australian Digital Commerce Association)",
-        "ups": 3
-    },
-    {
-        "title": "What is up with Hshares reddit link and twitter link being broken on coinmarketcap?",
-        "ups": 5
-    },
-    {
-        "title": "Important Notice About Airdrop Scam",
-        "ups": 3
-    },
-    {
-        "title": "Hcash POS Mining Instruction",
-        "ups": 3
-    },
-    {
-        "title": "User's Guide for Using HcashWallet on Computers",
-        "ups": 3
-    },
-    {
-        "title": "Hcash to list on Huobi",
-        "ups": 3
-    },
-    {
-        "title": "Hidden Zero Knowledge Proof",
-        "ups": 3
-    },
-    {
-        "title": "Progress on Hcash's Post-Quantum R&amp;D[Part 3]",
-        "ups": 3
-    },
-    {
-        "title": "Introduction of DAO Governance",
-        "ups": 3
-    },
-    {
-        "title": "Announcement of Hyperpay About HYP.",
-        "ups": 3
     }
 ]

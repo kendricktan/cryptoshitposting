@@ -1,103 +1,11 @@
 [
     {
         "title": "Hello, my name is Justin Hanneman, and I am a technical lead and founding member of Delphi Systems. Ask me (almost) anything.",
-        "ups": 36
+        "ups": 39
     },
     {
         "title": "Delphi Systems Whitepaper",
         "ups": 19
-    },
-    {
-        "title": "Taking a Step Back \u2013 Delphi Systems",
-        "ups": 17
-    },
-    {
-        "title": "Our Team, Our Vision: Part Two \u2013 Delphi \u2013 Medium",
-        "ups": 15
-    },
-    {
-        "title": "The Systems of Delphi \u2013 Delphi \u2013 Medium",
-        "ups": 12
-    },
-    {
-        "title": "Delphi Systems Token Auction \u2013 Delphi \u2013 Medium",
-        "ups": 14
-    },
-    {
-        "title": "The Autobid Contract: Token Distribution 2.0",
-        "ups": 11
-    },
-    {
-        "title": "Latest status?",
-        "ups": 11
-    },
-    {
-        "title": "More Details On What's to Come BEFORE the Token Auction (from Slack)",
-        "ups": 11
-    },
-    {
-        "title": "Announcements coming soon!",
-        "ups": 12
-    },
-    {
-        "title": "Ethereum and Oracles - Ethereum Blog",
-        "ups": 10
-    },
-    {
-        "title": "Delphi Systems Grandfathered Bounty",
-        "ups": 9
-    },
-    {
-        "title": "FAQ About Delphi\u2019s Token Auction \u2013 Delphi \u2013 Medium",
-        "ups": 11
-    },
-    {
-        "title": "PHI: The Oracle Coin \u2013 Delphi \u2013 Medium",
-        "ups": 11
-    },
-    {
-        "title": "Early Bird Auction is Now Live!",
-        "ups": 7
-    },
-    {
-        "title": "Delphi Systems Allocations \u2013 Delphi \u2013 Medium",
-        "ups": 9
-    },
-    {
-        "title": "Delphi Systems Bounty Program \u2013 Delphi \u2013 Medium",
-        "ups": 8
-    },
-    {
-        "title": "Delphi Systems Moving to RocketChat",
-        "ups": 8
-    },
-    {
-        "title": "Sign up for access to the Early Bird Auction here!",
-        "ups": 7
-    },
-    {
-        "title": "The MiniMe Token - The Token Design Which the Signal Token (sPHI) is Based On",
-        "ups": 8
-    },
-    {
-        "title": "Delphi\u2019s Autobid Contract: What it Means for our Community",
-        "ups": 6
-    },
-    {
-        "title": "Just a heads up, there's another coin called Delphy that recently appeared on coinmarketcap.",
-        "ups": 7
-    },
-    {
-        "title": "So, what now?",
-        "ups": 7
-    },
-    {
-        "title": "Hello, my name is Justin Hanneman, and I am a technical lead and founding member of Delphi Systems. Ask me (almost) anything.",
-        "ups": 37
-    },
-    {
-        "title": "Delphi Systems Whitepaper",
-        "ups": 18
     },
     {
         "title": "Taking a Step Back \u2013 Delphi Systems",
@@ -109,7 +17,7 @@
     },
     {
         "title": "The Systems of Delphi \u2013 Delphi \u2013 Medium",
-        "ups": 12
+        "ups": 15
     },
     {
         "title": "Delphi Systems Token Auction \u2013 Delphi \u2013 Medium",
@@ -125,19 +33,19 @@
     },
     {
         "title": "More Details On What's to Come BEFORE the Token Auction (from Slack)",
-        "ups": 11
-    },
-    {
-        "title": "Announcements coming soon!",
-        "ups": 11
-    },
-    {
-        "title": "Ethereum and Oracles - Ethereum Blog",
         "ups": 10
     },
     {
-        "title": "Delphi Systems Grandfathered Bounty",
+        "title": "Announcements coming soon!",
+        "ups": 12
+    },
+    {
+        "title": "Ethereum and Oracles - Ethereum Blog",
         "ups": 11
+    },
+    {
+        "title": "Delphi Systems Grandfathered Bounty",
+        "ups": 9
     },
     {
         "title": "FAQ About Delphi\u2019s Token Auction \u2013 Delphi \u2013 Medium",
@@ -145,15 +53,15 @@
     },
     {
         "title": "PHI: The Oracle Coin \u2013 Delphi \u2013 Medium",
-        "ups": 10
+        "ups": 9
     },
     {
         "title": "Early Bird Auction is Now Live!",
-        "ups": 7
+        "ups": 6
     },
     {
         "title": "Delphi Systems Allocations \u2013 Delphi \u2013 Medium",
-        "ups": 9
+        "ups": 8
     },
     {
         "title": "Delphi Systems Bounty Program \u2013 Delphi \u2013 Medium",
@@ -161,26 +69,26 @@
     },
     {
         "title": "Delphi Systems Moving to RocketChat",
-        "ups": 7
+        "ups": 6
     },
     {
         "title": "Sign up for access to the Early Bird Auction here!",
-        "ups": 6
+        "ups": 8
     },
     {
         "title": "The MiniMe Token - The Token Design Which the Signal Token (sPHI) is Based On",
-        "ups": 7
+        "ups": 8
     },
     {
         "title": "Delphi\u2019s Autobid Contract: What it Means for our Community",
-        "ups": 6
+        "ups": 7
     },
     {
         "title": "Just a heads up, there's another coin called Delphy that recently appeared on coinmarketcap.",
-        "ups": 5
+        "ups": 6
     },
     {
         "title": "So, what now?",
-        "ups": 6
+        "ups": 7
     }
 ]
