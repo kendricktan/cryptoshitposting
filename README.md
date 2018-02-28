@@ -1,5 +1,7 @@
 # Statistical Proof of Shitposting on Crypto Subreddits
 
+Only Python 3.x is supported
+
 # Install requirements
 ```
 pip install -r requirements.txt
