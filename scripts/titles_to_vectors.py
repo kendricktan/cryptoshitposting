@@ -35,8 +35,6 @@ def visualize_scatter(data_2d, label_ids, id_to_label_dict, title, figsize=(20, 
                     alpha=0.6,
                     label=id_to_label_dict[label_id])
     plt.title(title)
-    plt.xticks([], [])
-    plt.yticks([], [])
     plt.xlabel('z1')
     plt.ylabel('z2')
     plt.legend(loc='best')
@@ -79,6 +77,8 @@ def vectorize_titles(titles):
 if __name__ == '__main__':
     # Args settings
     parser = argparse.ArgumentParser()
+    parser.add_argument("-xl", "--x-limit", type=float, default=None, help='Prints out coordinates that exceeds this range on the x axis')
+    parser.add_argument("-yl", "--y-limit", type=float, default=None, help='Prints out coordinates that exceeds this range on the y axis')
     parser.add_argument("-p", "--peroid", type=str, default='all', choices=[
                         'all', 'year', 'month', 'week', 'day', 'hour'], help="Scrapped subreddit data folder path (subreddits/<peroid>)")
     args = parser.parse_args()
@@ -104,6 +104,8 @@ if __name__ == '__main__':
 
     titles = []
     labels = []
+
+    index_to_title = []
 
     for json_filepath in tqdm(_path.iterdir()):
         # Get vector and median/average score
@@ -146,6 +148,9 @@ if __name__ == '__main__':
         label = list(map(lambda x: label_custom, s))
         labels.extend(label)
 
+        # Index to Title
+        index_to_title.extend(list(map(lambda x: '[{}]\t{}:\t{:.64s}'.format(label_custom, cmc_data[coin_name]['symbol'], x), t)))
+
     # Plotting stuff
     label_to_id_dict = {v: i for i, v in enumerate(np.unique(labels))}
     id_to_label_dict = {v: k for k, v in label_to_id_dict.items()}
@@ -157,4 +162,18 @@ if __name__ == '__main__':
 
     # Fit through PCA / TSNE
     pca_result = PCA().fit_transform(v_np)
+
+    for i in range(len(pca_result)):
+        if args.x_limit is not None and args.y_limit is None:
+            if pca_result[i][0] >= args.x_limit:
+                print(index_to_title[i])
+
+        elif args.x_limit is None and args.y_limit is not None:
+            if pca_result[i][1] >= args.y_limit:
+                print(index_to_title[i])
+
+        elif args.x_limit is not None and args.y_limit is not None:
+            if pca_result[i][1] >= args.y_limit and pca_result[i][0] >= args.x_limit:
+                print(index_to_title[i])
+
     visualize_scatter(pca_result, label_ids, id_to_label_dict, 'Marketcap according to subreddit titles')
