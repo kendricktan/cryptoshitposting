@@ -20,7 +20,7 @@ DATA_FOLDER = os.path.join(ROOT_FOLDER, 'data')
 SUBREDDIT_FOLDER = os.path.join(DATA_FOLDER, 'subreddits')
 
 
-def visualize_scatter(data_2d, label_ids, id_to_label_dict, figsize=(20, 20)):
+def visualize_scatter(data_2d, label_ids, id_to_label_dict, title, figsize=(20, 20)):
     plt.figure(figsize=figsize)
     plt.grid()
 
@@ -32,8 +32,13 @@ def visualize_scatter(data_2d, label_ids, id_to_label_dict, figsize=(20, 20)):
                     marker='o',
                     color=plt.cm.Set1(label_id / float(nb_classes)),
                     linewidth='1',
-                    alpha=0.8,
+                    alpha=0.6,
                     label=id_to_label_dict[label_id])
+    plt.title(title)
+    plt.xticks([], [])
+    plt.yticks([], [])
+    plt.xlabel('z1')
+    plt.ylabel('z2')
     plt.legend(loc='best')
     plt.show()
 
@@ -97,8 +102,6 @@ if __name__ == '__main__':
     # Get all files in the folder
     _path = pathlib.Path(FOLDER_PATH)
 
-    l = {}
-
     titles = []
     labels = []
 
@@ -108,44 +111,40 @@ if __name__ == '__main__':
 
         coin_name = json_filepath.name.replace('.json', '')
 
-        try:
-            # Only want subreddits which
-            # have 25 or more posts
-            if len(s) < 25:
-                continue
+        # Only handle coins in CMC data
+        if coin_name not in cmc_data:
+            continue
 
-            # If median score for reddit
-            # post is < 75, ignore, not enough
-            # content quality
-            if s_median < 75:
-                continue
+        # Only want subreddits which
+        # have 25 or more posts
+        if len(s) < 25:
+            continue
 
-            l[coin_name] = {
-                'score_average': s_avg,
-                'score_median': s_median,
-                'coinmarketcap_stats': cmc_data[coin_name]
-            }
+        # If median score for reddit
+        # post is < 75, ignore, not enough
+        # content quality
+        if s_median < 75:
+            continue
 
-            # Extend to titles
-            titles.extend(t)
+        cmc_data[coin_name]
 
-            # Our labels
-            metric = float(cmc_data[coin_name]['market_cap_usd'])
+        # Extend to titles
+        titles.extend(t)
 
-            if metric >= 1_000_000_000:
-                label_custom = '1Bil++'
-            elif metric >= 250_000_000:
-                label_custom = '250Mil++'
-            elif metric >= 50_000_000:
-                label_custom = '50Mil++'
-            else:
-                label_custom = '<50Mil'
+        # Our labels
+        metric = float(cmc_data[coin_name]['market_cap_usd'])
 
-            label = list(map(lambda x: label_custom, s))
-            labels.extend(label)
+        if metric >= 1_000_000_000:
+            label_custom = '1Bil++'
+        elif metric >= 250_000_000:
+            label_custom = '250Mil++'
+        elif metric >= 50_000_000:
+            label_custom = '50Mil++'
+        else:
+            label_custom = '<50Mil'
 
-        except Exception as e:
-            pass
+        label = list(map(lambda x: label_custom, s))
+        labels.extend(label)
 
     # Plotting stuff
     label_to_id_dict = {v: i for i, v in enumerate(np.unique(labels))}
@@ -158,4 +157,4 @@ if __name__ == '__main__':
 
     # Fit through PCA / TSNE
     pca_result = PCA().fit_transform(v_np)
-    visualize_scatter(pca_result, label_ids, id_to_label_dict)
+    visualize_scatter(pca_result, label_ids, id_to_label_dict, 'Marketcap according to subreddit titles')
