@@ -77,10 +77,12 @@ def vectorize_titles(titles):
 if __name__ == '__main__':
     # Args settings
     parser = argparse.ArgumentParser()
+    parser.add_argument("-pc", "--post-count", type=int, default=25,
+                        help='Minimum post count to be accepted into preprocessing.')
     parser.add_argument("-xr", "--x-range", type=float, default=None, nargs=2,
-                        help='Prints out coordinates that is within this range on the x axis')
+                        help='Prints out pca coordinates that is within this range on the x axis')
     parser.add_argument("-yr", "--y-range", type=float, default=None, nargs=2,
-                        help='Prints out coordinates that is within this range on the y axis')
+                        help='Prints out pca coordinates that is within this range on the y axis')
     parser.add_argument("-smm", "--score-median-min", type=int, default=75,
                         help='Only accepts reddit posts with >=<value>. Assume hivemind.')
     parser.add_argument("-p", "--peroid", type=str, default='all', choices=[
@@ -117,8 +119,8 @@ if __name__ == '__main__':
             continue
 
         # Only want subreddits which
-        # have 25 or more posts
-        if len(s) < 25:
+        # reached the threshold of post count
+        if len(s) < args.post_count:
             continue
 
         # If median score for reddit
@@ -126,6 +128,11 @@ if __name__ == '__main__':
         # not enough content quality
         if s_median < args.score_median_min:
             continue
+
+        # Oh no mutating state :(
+        # Such a pleb
+        t = t[:args.post_count]
+        s = s[:args.post_count]
 
         # Extend to titles
         titles.extend(t)
@@ -187,4 +194,4 @@ if __name__ == '__main__':
                 print(index_to_title[i])
 
     visualize_scatter(pca_result, label_ids, id_to_label_dict,
-                      'Marketcap according to subreddit titles ({})'.format(args.peroid))
+                      'Marketcap according to subreddit titles ({}) [Median Score: >{}, Post Count: >{}]'.format(args.peroid, args.score_median_min, args.post_count))
