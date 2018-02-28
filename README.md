@@ -9,19 +9,18 @@ pip install -r requirements.txt
 ### 1. Collecting data (scrapping subreddit titles and score)
 ```bash
 # To scrap top titles from `all`
-python scrap_reddit_titles.py
+python scripts/scrap_reddit_titles.py
 
 # To scrap top titles from `month` (Can choose from 'day', 'week', 'month', 'year', 'all')
-# Located in 'ROOT_FOLDER/data/subreddits/all/<period>/...json'
-python scrap_reddit_titles.py -p month
+# Located in 'ROOT_FOLDER/data/subreddits/<period>/*.json'
+python scripts/scrap_reddit_titles.py -p month
 ```
 
 ### 2. Vectorize the collected data
 ```bash
-# To convert the scrapped 'top' titles
-python titles_to_vectors.py
+# To process and visualize the top of all time subreddit titles
+python scripts/viz_titles.py
 
-# To convert the scrapped 'month' titles (Chooes from 'day', 'week', 'month', 'year', 'all')
-# Located in 'ROOT_FOLDER/src/assets/vectors_<period>.json'
-python titles_to_vectors.py -p month
+# To process and visualize the the scrapped 'month' titles (Choose from 'day', 'week', 'month', 'year', 'all')
+python scripts/viz_titles.py -p month
 ```

@@ -77,8 +77,12 @@ def vectorize_titles(titles):
 if __name__ == '__main__':
     # Args settings
     parser = argparse.ArgumentParser()
-    parser.add_argument("-xl", "--x-limit", type=float, default=None, help='Prints out coordinates that exceeds this range on the x axis')
-    parser.add_argument("-yl", "--y-limit", type=float, default=None, help='Prints out coordinates that exceeds this range on the y axis')
+    parser.add_argument("-xr", "--x-range", type=float, default=None, nargs=2,
+                        help='Prints out coordinates that is within this range on the x axis')
+    parser.add_argument("-yr", "--y-range", type=float, default=None, nargs=2,
+                        help='Prints out coordinates that is within this range on the y axis')
+    parser.add_argument("-smm", "--score-median-min", type=int, default=75,
+                        help='Only accepts reddit posts with >=<value>. Assume hivemind.')
     parser.add_argument("-p", "--peroid", type=str, default='all', choices=[
                         'all', 'year', 'month', 'week', 'day', 'hour'], help="Scrapped subreddit data folder path (subreddits/<peroid>)")
     args = parser.parse_args()
@@ -86,11 +90,6 @@ if __name__ == '__main__':
     # Folder settings
     PEROID_TYPE = args.peroid
     FOLDER_PATH = os.path.join(SUBREDDIT_FOLDER, PEROID_TYPE)
-
-    VECTORIZED_PATH = os.path.join(os.path.join(ROOT_FOLDER, 'src'), 'assets')
-
-    if not os.path.exists(VECTORIZED_PATH):
-        os.makedirs(VECTORIZED_PATH)
 
     # Read coinmarketcap dump
     with open(os.path.join(DATA_FOLDER, 'cmc_dump.json'), 'r') as f:
@@ -123,12 +122,10 @@ if __name__ == '__main__':
             continue
 
         # If median score for reddit
-        # post is < 75, ignore, not enough
-        # content quality
-        if s_median < 75:
+        # post is < args.score_median_min, ignore,
+        # not enough content quality
+        if s_median < args.score_median_min:
             continue
-
-        cmc_data[coin_name]
 
         # Extend to titles
         titles.extend(t)
@@ -145,13 +142,15 @@ if __name__ == '__main__':
         else:
             label_custom = '<50Mil'
 
+        # Lazy af lmao
         label = list(map(lambda x: label_custom, s))
         labels.extend(label)
 
         # Index to Title
-        index_to_title.extend(list(map(lambda x: '[{}]\t{}:\t{:.64s}'.format(label_custom, cmc_data[coin_name]['symbol'], x), t)))
+        index_to_title.extend(list(map(lambda x: '[{}]\t{}:\t{:.64s}'.format(
+            label_custom, cmc_data[coin_name]['symbol'], x), t)))
 
-    # Plotting stuff
+    # Plotting and labelling stuff
     label_to_id_dict = {v: i for i, v in enumerate(np.unique(labels))}
     id_to_label_dict = {v: k for k, v in label_to_id_dict.items()}
     label_ids = np.array([label_to_id_dict[x] for x in labels])
@@ -161,19 +160,31 @@ if __name__ == '__main__':
     v_np = np.array(v.todense().tolist())
 
     # Fit through PCA / TSNE
-    pca_result = PCA().fit_transform(v_np)
+    pca_result = PCA().fit_transform(v_np)    
 
-    for i in range(len(pca_result)):
-        if args.x_limit is not None and args.y_limit is None:
-            if pca_result[i][0] >= args.x_limit:
+    # Print stuff
+    x_range = args.x_range
+
+    if x_range is not None:
+        x_range.sort()
+
+    y_range = args.y_range
+
+    if y_range is not None:
+        y_range.sort()
+
+    for i in range(len(pca_result)):        
+        if x_range is not None and y_range is None:
+            if pca_result[i][0] >= x_range[0] and pca_result[i][0] <= x_range[1]:
                 print(index_to_title[i])
 
-        elif args.x_limit is None and args.y_limit is not None:
-            if pca_result[i][1] >= args.y_limit:
+        elif x_range is None and y_range is not None:
+            if pca_result[i][1] >= y_range[0] and pca_result[i][1] <= y_range[1]:
                 print(index_to_title[i])
 
-        elif args.x_limit is not None and args.y_limit is not None:
-            if pca_result[i][1] >= args.y_limit and pca_result[i][0] >= args.x_limit:
+        elif x_range is not None and y_range is not None:
+            if pca_result[i][0] >= x_range[0] and pca_result[i][0] <= x_range[1] and pca_result[i][1] >= y_range[0] and pca_result[i][1] <= y_range[1]:
                 print(index_to_title[i])
 
-    visualize_scatter(pca_result, label_ids, id_to_label_dict, 'Marketcap according to subreddit titles')
+    visualize_scatter(pca_result, label_ids, id_to_label_dict,
+                      'Marketcap according to subreddit titles ({})'.format(args.peroid))
