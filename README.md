@@ -18,7 +18,7 @@ python scripts/scrap_reddit_titles.py
 python scripts/scrap_reddit_titles.py -p month
 ```
 
-### 2. Vectorize the collected data
+### 2. Visualize the collected data
 ```bash
 # To process and visualize the top of all time subreddit titles
 python scripts/viz_titles.py
