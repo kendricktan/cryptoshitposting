@@ -141,13 +141,13 @@ if __name__ == '__main__':
         metric = float(cmc_data[coin_name]['market_cap_usd'])
 
         if metric >= 1_000_000_000:
-            label_custom = '1Bil++'
+            label_custom = 'Marketcap 1Bil++'
         elif metric >= 250_000_000:
-            label_custom = '250Mil++'
+            label_custom = 'Marketcap 250Mil++'
         elif metric >= 50_000_000:
-            label_custom = '50Mil++'
+            label_custom = 'Marketcap 50Mil++'
         else:
-            label_custom = '<50Mil'
+            label_custom = 'Marketcap <50Mil'
 
         # Lazy af lmao
         label = list(map(lambda x: label_custom, s))
@@ -167,7 +167,7 @@ if __name__ == '__main__':
     v_np = np.array(v.todense().tolist())
 
     # Fit through PCA / TSNE
-    pca_result = PCA().fit_transform(v_np)    
+    pca_result = PCA().fit_transform(v_np)
 
     # Print stuff
     x_range = args.x_range
@@ -180,7 +180,7 @@ if __name__ == '__main__':
     if y_range is not None:
         y_range.sort()
 
-    for i in range(len(pca_result)):        
+    for i in range(len(pca_result)):
         if x_range is not None and y_range is None:
             if pca_result[i][0] >= x_range[0] and pca_result[i][0] <= x_range[1]:
                 print(index_to_title[i])
