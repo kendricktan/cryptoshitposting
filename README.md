@@ -27,25 +27,25 @@ python scripts/viz_titles.py
 python scripts/viz_titles.py -p month
 
 # For help
-python scripts/viz_titles.py --help
-usage: viz_titles.py [-h] [-pc POST_COUNT] [-xr X_RANGE X_RANGE]
-                     [-yr Y_RANGE Y_RANGE] [-smm SCORE_MEDIAN_MIN]
-                     [-p {all,year,month,week,day,hour}]
+# python scripts/viz_titles.py --help
+# usage: viz_titles.py [-h] [-pc POST_COUNT] [-xr X_RANGE X_RANGE]
+#                      [-yr Y_RANGE Y_RANGE] [-smm SCORE_MEDIAN_MIN]
+#                      [-p {all,year,month,week,day,hour}]
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -pc POST_COUNT, --post-count POST_COUNT
-                        Minimum post count to be accepted into preprocessing.
-  -xr X_RANGE X_RANGE, --x-range X_RANGE X_RANGE
-                        Prints out pca coordinates that is within this range
-                        on the x axis
-  -yr Y_RANGE Y_RANGE, --y-range Y_RANGE Y_RANGE
-                        Prints out pca coordinates that is within this range
-                        on the y axis
-  -smm SCORE_MEDIAN_MIN, --score-median-min SCORE_MEDIAN_MIN
-                        Only accepts reddit posts with >=<value>. Assume
-                        hivemind.
-  -p {all,year,month,week,day,hour}, --peroid {all,year,month,week,day,hour}
-                        Scrapped subreddit data folder path
-                        (subreddits/<peroid>)
+# optional arguments:
+#   -h, --help            show this help message and exit
+#   -pc POST_COUNT, --post-count POST_COUNT
+#                         Minimum post count to be accepted into preprocessing.
+#   -xr X_RANGE X_RANGE, --x-range X_RANGE X_RANGE
+#                         Prints out pca coordinates that is within this range
+#                         on the x axis
+#   -yr Y_RANGE Y_RANGE, --y-range Y_RANGE Y_RANGE
+#                         Prints out pca coordinates that is within this range
+#                         on the y axis
+#   -smm SCORE_MEDIAN_MIN, --score-median-min SCORE_MEDIAN_MIN
+#                         Only accepts reddit posts with >=<value>. Assume
+#                         hivemind.
+#   -p {all,year,month,week,day,hour}, --peroid {all,year,month,week,day,hour}
+#                         Scrapped subreddit data folder path
+#                         (subreddits/<peroid>)
 ```
